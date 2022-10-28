@@ -44,6 +44,7 @@
     "@typescript-eslint/parser": "5.3.0",
     "cordova-ios": "^6.2.0",
     "cordova-plugin-device": "2.0.2",
+    "cordova-plugin-ionic": "^5.5.3",
     "cordova-plugin-ionic-keyboard": "^2.0.5",
     "cordova-plugin-ionic-webview": "^5.0.0",
     "cordova-plugin-splashscreen": "5.0.2",
@@ -71,7 +72,15 @@
       "cordova-plugin-device": {},
       "cordova-plugin-splashscreen": {},
       "cordova-plugin-ionic-webview": {},
-      "cordova-plugin-ionic-keyboard": {}
+      "cordova-plugin-ionic-keyboard": {},
+      "cordova-plugin-ionic": {
+        "APP_ID": "914785e9",
+        "CHANNEL_NAME": "Production",
+        "UPDATE_METHOD": "background",
+        "MAX_STORE": "2",
+        "MIN_BACKGROUND_DURATION": "30",
+        "UPDATE_API": "https://api.ionicjs.com"
+      }
     },
     "platforms": [
       "ios"
